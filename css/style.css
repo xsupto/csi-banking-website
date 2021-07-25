@@ -30,6 +30,8 @@ border-radius: 5px;
     padding-left: 0px;
     position: relative;
     margin-bottom: 10px;
+    
+    
 }
 
 
@@ -41,10 +43,11 @@ border-radius: 5px;
 .footer-bg{
     position: absolute;
     bottom: 0;
-    background-image: url(/images/fotter-bg.png);
+    background-image: url(/images/footer/fotter-bg.png);
     width: 100%;
     height: 266px;
     z-index: -1;
+    overflow: hidden;
 }
 
 .footer-one{
@@ -87,6 +90,7 @@ height: 105px;
 bottom: 0;
 left: 33%;
 position: absolute;
+padding-bottom: 127px;
 
 animation-name: ani-move-two;
 animation-duration: 5s;
