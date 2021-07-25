@@ -1,0 +1,12 @@
+.slider-bg-color{
+background-color: rgb(255, 202, 28);
+}
+
+nav li a:hover{
+    color: white;
+background-image: linear-gradient(orangered, rgb(255, 153, 70));
+border-radius: 5px;
+ 
+
+
+}
