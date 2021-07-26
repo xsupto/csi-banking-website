@@ -18,6 +18,37 @@ border-radius: 5px;
 }
 
 
+/*---------------------
+     cards-button 
+----------------------*/
+
+.crads-btn button:hover{
+background-color: orangered;
+}
+
+/*--------------------------
+         why choose us  
+----------------------------*/
+.why-us{
+width: 300px;
+height: 250px;
+border-radius: 5px;
+
+}
+.why-us img{
+    width: 65px;
+    height: 65px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*------------------------ footer-bottom-section 
@@ -72,9 +103,6 @@ animation-iteration-count: infinite;
     0%{
         left: 0
     }
-    /* 50%{
-        right: 25%;
-    } */
 
     100%{
         left: 100%;
