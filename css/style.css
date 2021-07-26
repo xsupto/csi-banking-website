@@ -17,6 +17,58 @@ border-radius: 5px;
 
 }
 
+/*------------------------------ 
+    Search box animation 
+------------------------------ */
+
+.search__box{
+    display: flex;
+    background: orangered;
+    height: 40px;
+    border-radius: 40px;
+    padding: 0px;
+}
+
+.search__box:hover .search__input {
+    width: 200px;
+    padding: 0 6px;
+}
+
+.search__btn{
+    
+color: orangered;
+background: rgb(255, 255, 255);
+float: left;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0.5px solid orangered;
+}
+
+.search__box .search__btn:hover{
+    color: white;
+    background: orangered;
+}
+
+.search__input{
+   
+border: none;
+background: none;
+
+padding: 0;
+color: rgb(255, 255, 255);
+font-size: 16px;
+line-height: 40px;
+transition: 0.1s;
+outline: none;
+width: 0px;
+ 
+}
+
+
 
 /*---------------------
      cards-button 
@@ -85,17 +137,17 @@ border-radius: 5px;
 .footer-one{
     background-image: url(/images/footer/Cyclist_94.29.3a0b2ba.gif);
  background-repeat: no-repeat;
-  width: 88px;
+ width: 88px;
  height: 100px;
  background-size:100%;
  bottom: 0;
-left:33%;
+ left:33%;
  position: absolute;
  
-animation-name: ani-move;
-animation-duration: 20s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
+ animation-name: ani-move;
+ animation-duration: 20s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
 }
 
 
@@ -122,7 +174,7 @@ position: absolute;
 padding-bottom: 127px;
 
 animation-name: ani-move-two;
-animation-duration: 5s;
+animation-duration: 9s;
 animation-timing-function: linear;
 animation-iteration-count: infinite;
 }
