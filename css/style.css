@@ -32,6 +32,7 @@ border-radius: 5px;
 .search__box:hover .search__input {
     width: 200px;
     padding: 0 6px;
+    
 }
 
 .search__btn{
